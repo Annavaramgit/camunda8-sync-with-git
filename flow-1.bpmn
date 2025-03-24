@@ -9,7 +9,7 @@
       <bpmn:incoming>Flow_1xwmyys</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_1xwmyys" sourceRef="Activity_1rgctqb" targetRef="Event_1xppeep" />
-    <bpmn:manualTask id="Activity_1rgctqb" name="manualuser">
+    <bpmn:manualTask id="Activity_1rgctqb" name="manual user">
       <bpmn:incoming>Flow_1e9i3t2</bpmn:incoming>
       <bpmn:outgoing>Flow_1xwmyys</bpmn:outgoing>
     </bpmn:manualTask>
@@ -30,6 +30,7 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1xb0op5_di" bpmnElement="Activity_1rgctqb">
         <dc:Bounds x="240" y="78" width="100" height="80" />
+        <bpmndi:BPMNLabel />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_1e9i3t2_di" bpmnElement="Flow_1e9i3t2">
         <di:waypoint x="186" y="118" />
