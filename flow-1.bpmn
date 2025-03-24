@@ -9,7 +9,7 @@
       <bpmn:incoming>Flow_1xwmyys</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="Flow_1xwmyys" sourceRef="Activity_1rgctqb" targetRef="Event_1xppeep" />
-    <bpmn:manualTask id="Activity_1rgctqb" name="user">
+    <bpmn:manualTask id="Activity_1rgctqb" name="manualuser">
       <bpmn:incoming>Flow_1e9i3t2</bpmn:incoming>
       <bpmn:outgoing>Flow_1xwmyys</bpmn:outgoing>
     </bpmn:manualTask>
